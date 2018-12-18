@@ -8,6 +8,8 @@ hugo
 
 mv public/* ./
 
+rm -rf public
+
 # Add changes to git.
 git add .
 
