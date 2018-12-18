@@ -32,7 +32,7 @@ disable404 = true
     [params.profile]
         name = "Kaichao Sun"
         tagline = "Backend Developer"
-        avatar = "avatar.jpg"
+        avatar = "profile.png"
 
     # Contact section
     [params.contact]
@@ -41,38 +41,38 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: kaichaosuna@gmail.com"
+        title = "kaichaosuna@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+86 15229295896"
+        title = "+86 15229295896"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "//whisperd.tech"
+        title = "whipserd.tech"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/kaichao-sun-b1845aa0/"
+        title = "in/kaichao-sun"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/dashengSun"
+        title = "github.com/dashengSun"
 
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//twitter.com/SunWillsuna"
+        title = "@SunWillsuna"
 
     # Education section
     [params.education]
@@ -80,14 +80,14 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "Master of Engineering"
+        college = "Northwestern Polytechnical University"
+        dates = "2012 - 2015"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "Bachelor's degree"
+        college = "Northwestern Polytechnical University"
+        dates = "2008 - 2012"
 
     # Languages section
     [params.language]
@@ -95,15 +95,11 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
+        language = "Chinese"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
+        language = "English"
         level = "Professional"
 
     # Interests section
@@ -115,10 +111,10 @@ disable404 = true
         interest = "Climbing"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Reading"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "Ping pong"
 
 # Main body sections
 
@@ -194,27 +190,27 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-                
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
+        skill = "Scala"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "Ruby on Rails"
-        level = "75%"
+        level = "90%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Javascript & ReactJS"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "AWS"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Docker & Kubernetes"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "Golang"
         level = "60%"
 
     # Footer section
