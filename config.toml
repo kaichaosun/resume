@@ -1,10 +1,10 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://whisperd.tech/resume/"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Kaichao Sun Resume"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-128168145-1"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -14,8 +14,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Resume of Kaichao Sun"
+    author = "Kaichao Sun"
 
 # Theme styles
 
@@ -30,9 +30,9 @@ disable404 = true
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "Kaichao Sun"
+        tagline = "Backend Developer"
+        avatar = "avatar.jpg"
 
     # Contact section
     [params.contact]
