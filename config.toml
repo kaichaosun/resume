@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Kaichao Sun"
-        tagline = "Backend Developer"
+        tagline = "Software Developer"
         avatar = "profile.png"
 
     # Contact section
@@ -71,8 +71,8 @@ disable404 = true
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/SunWillsuna"
-        title = "@SunWillsuna"
+        url = "//twitter.com/kaichaosun"
+        title = "@kaichaosun"
 
     # Education section
     [params.education]
@@ -125,7 +125,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**As a Backend Developer,** I have comprehensive technical skill set and expertise around web development, microservice design, functional programming, CI/CD, cloud computing, TDD, etc. I enjoy working in an agile team. Remote work is another lifestyle I want to give a try. Currently, I'm focusing on Functional Programming and Distributed Ledger Technology. Coding in the night/quiet makes me feel great."
+        summary = "**As a Blockchain / DLT Developer,** I have comprehensive technical skill set and expertise around **Substrate, Solidity, IPFS, WASM**. Now I'm interested in learning more about **Holochain and mutual credits**. I have been working as a Backend Developer of Web 2.0, masters the skill like web development, microservice design, functional programming, CI/CD, cloud computing, TDD, etc. I enjoy working in an agile team. Remote work is another lifestyle which makes me comfortable. Currently, I'm focusing on broad Distributed Ledger Technology. Coding in the night/quiet makes me feel great."
 
     # Experiences section
     [params.experiences]
