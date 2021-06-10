@@ -125,7 +125,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**As a Blockchain / DLT Developer,** I have comprehensive technical skill set and expertise around **Substrate, Solidity, IPFS, WASM**. Now I'm interested in learning more about **Holochain and mutual credits**. I have been working as a Backend Developer of Web 2.0, masters the skill like web development, microservice design, functional programming, CI/CD, cloud computing, TDD, etc. I enjoy working in an agile team. Remote work is another lifestyle which makes me comfortable. Currently, I'm focusing on broad Distributed Ledger Technology. Coding in the night/quiet makes me feel great."
+        summary = "**As a Blockchain / DLT Developer,** I have comprehensive technical skill set and expertise around **Substrate, Solidity, IPFS, WASM**. Now I'm interested in learning more about **Holochain and mutual credits**. \n\nI have been working as a Backend Developer of Web 2.0, masters the skill like web development, microservice design, functional programming, CI/CD, cloud computing, TDD, etc. \n\nI enjoy working in an agile team. Remote work is another lifestyle which makes me comfortable. Currently, I'm focusing on broad Distributed Ledger Technology. Coding in the night/quiet makes me feel great."
 
     # Experiences section
     [params.experiences]
@@ -134,10 +134,16 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Developer Advocate"
+        dates = "Jul 2019 - Present"
+        company = "Parity Technologies, Remote"
+        details = "**Fully work on a decentralized world,** I design initiatives to promote Substrate to developers includes, a writing column with monthly tech writeup, design the online course outline and record parts of the videos, we have trained more than 800 devs. Also participates in the Web3 Bootcamp and Web3 Forum as technical director. \n\nOpen source contribution includes, runtime modules for beginners, a template to start a Proof of Stake blockchain, authorized node participation to compose a permissioned blockchain, etc"
+
+        [[params.jobs.list]]
         position = "Consultant"
-        dates = "Jul 2016 - Present"
+        dates = "Jul 2016 - Jun 2019"
         company = "ThoughtWorks, Xi'an"
-        details = "**As a Full Stack Developer,** I have been working for the client REA Group (a global online real estate advertising company) for more than two years. During this period, I work closely with a great full functional team (includes PM, BA, etc) to deliver many great products like Audience Maximiser, Flexi subscriptions, etc. These products bring lots of value to the company. Also I have participated a few HackDay projects, these projects are focus on re-imagine business model and improve daily workflow. My work includes: <li>Design microservices based on domain knowledge, product requirement and team structure. <li>Master Functional Programming to do backend development for each microservice. <li>Using React.js, Vue.js to create the web page. <li>TDD experiences in Scala, Ruby, Java, Golang, NodeJS. <li>Doing CI/CD by leveraging Docker, Buildkite / Bamboo. <li>Master the widely used infrastructure like AWS, k8s, Splunk, NewRelic, PagerDuty, JIRA, Git. <li>Sharing knowledge in community and team. <li>Develope others like new ones, and review candidates’ homework."
+        details = "**As a Full Stack Developer,** I have been working for the client REA Group (a global online real estate advertising company) for more than two years. During this period, I work closely with a great full functional team (includes PM, BA, etc) to deliver many great products like Audience Maximiser, Flexi subscriptions, etc. These products bring lots of value to the company. Also I have participated a few HackDay projects, these projects are focus on re-imagine business model and improve daily workflow. \n\nWork includes, <li>Design microservices based on domain knowledge, product requirement and team structure. <li>Master Functional Programming to do backend development for each microservice. <li>Using React.js, Vue.js to create the web page. <li>TDD experiences in Scala, Ruby, Java, Golang, NodeJS. <li>Doing CI/CD by leveraging Docker, Buildkite / Bamboo. <li>Master the widely used infrastructure like AWS, k8s, Splunk, NewRelic, PagerDuty, JIRA, Git. <li>Sharing knowledge in community and team. <li>Develope others like new ones, and review candidates’ homework."
 
         [[params.jobs.list]]
         position = "Developer"
@@ -158,21 +164,56 @@ disable404 = true
         url = "https://github.com/dashengSun/start-FP-in-scala"
         tagline = "A functional programming tutorial in Scala."
 
-				[[params.projects.list]]
-        title = "Golang web starter"
-        url = "https://github.com/dashengSun/golang-web-starter"
-        tagline = "Build a simple web application using Golang, Docker, etc."
+		[[params.projects.list]]
+        title = "Substrate"
+        url = "https://github.com/paritytech/substrate"
+        tagline = "A framework to build blockchain. I have been actively contribute to its source code."
 
         [[params.projects.list]]
-        title = "DLT Academy"
-        url = "https://github.com/dashengSun/blockchain-academy"
-        tagline = "A book that summary the detail knowledge around DLT."
+        title = "Substrate Stencil"
+        url = "https://github.com/kaichaosun/substrate-stencil"
+        tagline = "A template for kick starting a Substrate based PoS chain."
+
+        [[params.projects.list]]
+        title = "Play Substrate"
+        url = "https://github.com/kaichaosun/play-substrate"
+        tagline = "Runtime modules for beginners to play with."
+
+        [[params.projects.list]]
+        title = "Substrate Course Primer & Advanced"
+        url = "https://github.com/SubstrateCourse/slides/blob/master/outline.md#substrate-blockchain-application-development"
+        tagline = "Cohort based online course for developers."
+
+        [[params.projects.list]]
+        title = "Substrate Blockchain Development Column"
+        url = "https://zhuanlan.zhihu.com/substrate"
+        tagline = "Tech writings for blockchain and Substrate."
 
     # Skills section
     [params.skills]
         enable = true
         icon = "fa-rocket"
         title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "DLT"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Rust"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Substrate"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Solidity"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Holochain"
+        level = "60%"
 
         [[params.skills.list]]
         skill = "Scala"
@@ -193,9 +234,6 @@ disable404 = true
         [[params.skills.list]]
         skill = "Docker & Kubernetes"
         level = "85%"
-        [[params.skills.list]]
-        skill = "DLT"
-        level = "60%"
 
         [[params.skills.list]]
         skill = "Golang"
