@@ -44,11 +44,11 @@ disable404 = true
         url = "mailto: kaichaosuna@gmail.com"
         title = "kaichaosuna@gmail.com"
 
-        [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+86 15229295896"
-        title = "+86 15229295896"
+        # [[params.contact.list]]
+        # class = "phone"
+        # icon = "fa-phone"
+        # url = "tel:+86 xxx"
+        # title = "+86 xxx"
 
         [[params.contact.list]]
         class = "website"
@@ -65,8 +65,8 @@ disable404 = true
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/dashengSun"
-        title = "github.com/dashengSun"
+        url = "//github.com/kaichaosun"
+        title = "github.com/kaichaosun"
 
         [[params.contact.list]]
         class = "twitter"
