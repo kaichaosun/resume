@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Kaichao Sun"
-        tagline = "Software Developer"
+        tagline = "Building a decentralized world"
         avatar = "profile.png"
 
     # Contact section
@@ -114,7 +114,7 @@ disable404 = true
         interest = "Reading"
 
         [[params.interests.list]]
-        interest = "Ping pong"
+        interest = "Swimming"
 
 # Main body sections
 
@@ -125,7 +125,12 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**As a Blockchain / DLT Developer,** I have comprehensive technical skill set and expertise around **Substrate, Solidity, IPFS, WASM**. Now I'm interested in learning more about **Holochain and mutual credits**. \n\nI have been working as a Backend Developer of Web 2.0, masters the skill like web development, microservice design, functional programming, CI/CD, cloud computing, TDD, etc. \n\nI enjoy working in an agile team. Remote work is another lifestyle which makes me comfortable. Currently, I'm focusing on broad Distributed Ledger Technology. Coding in the night/quiet makes me feel great."
+        summary = """\
+            **As a Blockchain / DLT Developer,** I have comprehensive technical skill set and expertise around **Substrate, Solidity, Libp2p, WASM, CRDT**. \
+            Now I'm focus on building **Local-first** software. 
+            \n\nPreviously, I have been working as a Backend Developer of Web 2.0, masters the skill like web development, microservice design, functional programming, CI/CD, cloud computing, TDD, etc.
+            \n\nI enjoy working in an agile team with open-minded people around. Remote work is the lifestyle which makes me comfortable. Coding in the night/quiet makes me feel great.
+        """
 
     # Experiences section
     [params.experiences]
@@ -134,22 +139,62 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Developer Advocate"
+        position = "Blockchain Developer"
         dates = "Jul 2019 - Present"
         company = "Parity Technologies, Remote"
-        details = "**Fully work on a decentralized world,** I design initiatives to promote Substrate to developers includes, a writing column with monthly tech writeup, design the online course outline and record parts of the videos, we have trained more than 800 devs. Also participates in the Web3 Bootcamp and Web3 Forum as technical director. \n\nOpen source contribution includes, runtime modules for beginners, a template to start a Proof of Stake blockchain, authorized node participation to compose a permissioned blockchain, etc"
+        details = """\
+            **Work with Substrate and Polkadot,** I designed a way for permissioned network to only connect with authorized nodes, includes a FRAME pallet named `node-authorization`. [See code here](https://github.com/paritytech/substrate/pull/6996).
+            Maintains a [Proof of Stake blockchain template](https://github.com/kaichaosun/substrate-stencil) which follows Polkadot mainnet launch process, includes BABE & GRANDPA consensus, staking, governance related pallets.
+            Maintains [a few Substrate pallets](https://github.com/kaichaosun/play-substrate) for easily onboarding developers, it covers the knowledge includes macro syntax used in FRAME, storage data types, genesis config, off-chain worker, etc.
+            \n\nBesides coding, I also actively promote Substrate to developers includes, writing deep-dive tech post around libp2p, Merkle Patricia Trie, goverance and decentralization, etc;
+            produce the Substrate online course with more than 1,000 devs joined;
+            support ecosystem teams with Web3 Bootcamp, hackthons, and Substrate Builder Program.
+            \n\nI have also been actively playing with Substrate bridges, XCM, ink!, smoldot light client, etc. 
+            Outsite of Substrate ecosystem, there are some other tech stack in DLT which I haved been followed for a few years,
+            includes IPFS, storj for file storge;
+            Matrix, Secure Scuttlebutt for fedarated network;
+            Hypercore, Holochain for DHT content;
+            and more others, contact me if you want to discuss decentralized tech!
+        """
 
         [[params.jobs.list]]
-        position = "Consultant"
+        position = "Lead Developer"
         dates = "Jul 2016 - Jun 2019"
         company = "ThoughtWorks, Xi'an"
-        details = "**As a Full Stack Developer,** I have been working for the client REA Group (a global online real estate advertising company) for more than two years. During this period, I work closely with a great full functional team (includes PM, BA, etc) to deliver many great products like Audience Maximiser, Flexi subscriptions, etc. These products bring lots of value to the company. Also I have participated a few HackDay projects, these projects are focus on re-imagine business model and improve daily workflow. \n\nWork includes, <li>Design microservices based on domain knowledge, product requirement and team structure. <li>Master Functional Programming to do backend development for each microservice. <li>Using React.js, Vue.js to create the web page. <li>TDD experiences in Scala, Ruby, Java, Golang, NodeJS. <li>Doing CI/CD by leveraging Docker, Buildkite / Bamboo. <li>Master the widely used infrastructure like AWS, k8s, Splunk, NewRelic, PagerDuty, JIRA, Git. <li>Sharing knowledge in community and team. <li>Develope others like new ones, and review candidates’ homework."
+        details = """\
+            **As a Full Stack Developer,** I have been working for REA Group (a global online real estate advertising platform) for more than two years.
+            During this period, I work closely with a great team (includes PM, BA, etc) to deliver many products like Audience Maximiser, Flexi subscriptions, etc.
+            These products bring lots of value to the customers. Also participated a few HackDay projects, these projects are mainly focus on re-imagine business model and improve our daily workflow. 
+            \n\nMy work includes, architect design like microservices and its interaction based on domain knowledge, product requirement and organization structure.
+            Leveraging functional programming to develop backend services reliably. 
+            Using React, Vue to create the web apps; Scala, Ruby, Java, Golang, NodeJS for backend; CI/CD with Docker, Buildkite, Bamboo.
+            Familiar with the widely used infrastructure like AWS, k8s, Splunk, NewRelic, PagerDuty, JIRA, Git.
+            Sharing knowledge in community, mentor others and recuriting.
+        """
 
         [[params.jobs.list]]
-        position = "Developer"
+        position = "Backend Developer"
         dates = "Apr 2015 - Jul 2016"
         company = "Quyi, Xi'an"
-        details = "**I start my career** in Quyi which is startup company focus on mobile healthcare. This is so excited, almost everything is different and new. I become a quick learner to understand enough business context, surf the internet to learn technology day and night, organise meetings for projects. Details include: <br /><li>Break the original monolithic architecture into microservices. <li>Develop open platform with SpringMVC for third-party application to access the services. <li>Develop service register and discovery with Zookeeper. <li>Design API Gateway with Netty. <li>Do performance test with JMeter. <li>Provide technical support for third-party."
+        details = """**I start my career** in Quyi which is a startup building a health management App, it can also connect with traditional medical institutions like hospitals. 
+            I feel so excited to build a Web product, almost everything is different and new to me.
+            As a quick learner, it talks me a few weeks to learn Java, understand the business.
+            \n\nDetail work includes: break the original monolithic architecture into microservices,
+            coding the open platform with SpringMVC and RESTful interface for third-party application to access the services,
+            develop service register and discovery with Zookeeper,
+            design API Gateway with Netty,
+            carry performance test with JMeter,
+            provide technical support for third-party, etc.
+        """
+
+        [[params.jobs.list]]
+        position = "Other experiences you may find interesting"
+        dates = "Apr 2013 - Present"
+        company = ""
+        details = """**I got to know Bitcoin** in 2013, tried mining but network is blocking me to download any blocks.
+        Wrote Solidity in 2016 with Remix, the dev experience is not good TBH.
+        \n\nSince then, I started to exploring decentralized tech knowledge, it feels like home in this space, blockchain has its limitations, but more great things will coming!
+        """
 
 
     # Projects section
@@ -159,15 +204,10 @@ disable404 = true
         title = "Projects"
         intro = "**Following are side projects or open source libraries that I usually work on.** "
 
-        [[params.projects.list]]
-        title = "Start FP in Scala"
-        url = "https://github.com/dashengSun/start-FP-in-scala"
-        tagline = "A functional programming tutorial in Scala."
-
 		[[params.projects.list]]
         title = "Substrate"
         url = "https://github.com/paritytech/substrate"
-        tagline = "A framework to build blockchain. I have been actively contribute to its source code."
+        tagline = "A framework to build blockchain which I have been actively contribute to."
 
         [[params.projects.list]]
         title = "Substrate Stencil"
@@ -180,14 +220,29 @@ disable404 = true
         tagline = "Runtime modules for beginners to play with."
 
         [[params.projects.list]]
-        title = "Substrate Course Primer & Advanced"
+        title = "Substrate Course"
         url = "https://github.com/SubstrateCourse/slides/blob/master/outline.md#substrate-blockchain-application-development"
-        tagline = "Cohort based online course for developers."
+        tagline = "Cohort based online course for developers includes primer and advanced."
 
         [[params.projects.list]]
-        title = "Substrate Blockchain Development Column"
+        title = "Substrate Development Column"
         url = "https://zhuanlan.zhihu.com/substrate"
         tagline = "Tech writings for blockchain and Substrate."
+
+        [[params.projects.list]]
+        title = "Localtunnel in Rust"
+        url = "https://github.com/kaichaosun/rlt"
+        tagline = "Localtunnel implementation in Rust, expose local API to the public."
+
+        [[params.projects.list]]
+        title = "Start FP in Scala"
+        url = "https://github.com/dashengSun/start-FP-in-scala"
+        tagline = "A functional programming tutorial in Scala."
+
+        [[params.projects.list]]
+        title = "Rust Libp2p Examples"
+        url = "https://github.com/kaichaosun/rust-libp2p-examples"
+        tagline = "Demo the usage of rust-libp2p."
 
     # Skills section
     [params.skills]
@@ -201,7 +256,7 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Rust"
-        level = "80%"
+        level = "90%"
 
         [[params.skills.list]]
         skill = "Substrate"
@@ -213,15 +268,15 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Holochain"
-        level = "60%"
-
-        [[params.skills.list]]
-        skill = "Scala"
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
+        skill = "Scala"
         level = "90%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "Javascript & ReactJS"
@@ -233,7 +288,7 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Docker & Kubernetes"
-        level = "85%"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "Golang"
