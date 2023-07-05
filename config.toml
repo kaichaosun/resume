@@ -146,10 +146,12 @@ disable404 = true
             **Work with Substrate and Polkadot,** I designed a way for permissioned network to only connect with authorized nodes, includes a FRAME pallet named `node-authorization`. [See code here](https://github.com/paritytech/substrate/pull/6996).
             Maintains a [Proof of Stake blockchain template](https://github.com/kaichaosun/substrate-stencil) which follows Polkadot mainnet launch process, includes BABE & GRANDPA consensus, staking, governance related pallets.
             Maintains [a few Substrate pallets](https://github.com/kaichaosun/play-substrate) for easily onboarding developers, it covers the knowledge includes macro syntax used in FRAME, storage data types, genesis config, off-chain worker, etc.
-            \n\nBesides coding, I also actively promote Substrate to developers includes, writing deep-dive tech post around libp2p, Merkle Patricia Trie, goverance and decentralization, etc;
+            
+            \n\n Besides coding, I also actively promote Substrate to developers includes, writing deep-dive tech post around libp2p, Merkle Patricia Trie, goverance and decentralization, etc;
             produce the Substrate online course with more than 1,000 devs joined;
             support ecosystem teams with Web3 Bootcamp, hackthons, and Substrate Builder Program.
-            \n\nI have also been actively playing with Substrate bridges, XCM, ink!, smoldot light client, etc. 
+            
+            \n\n I have also been actively playing with Substrate bridges, XCM, ink!, smoldot light client, etc. 
             Outsite of Substrate ecosystem, there are some other tech stack in DLT which I haved been followed for a few years,
             includes IPFS, storj for file storge;
             Matrix, Secure Scuttlebutt for fedarated network;
@@ -165,7 +167,8 @@ disable404 = true
             **As a Full Stack Developer,** I have been working for REA Group (a global online real estate advertising platform) for more than two years.
             During this period, I work closely with a great team (includes PM, BA, etc) to deliver many products like Audience Maximiser, Flexi subscriptions, etc.
             These products bring lots of value to the customers. Also participated a few HackDay projects, these projects are mainly focus on re-imagine business model and improve our daily workflow. 
-            \n\nMy work includes, architect design like microservices and its interaction based on domain knowledge, product requirement and organization structure.
+            
+            \n\n My work includes, architect design like microservices and its interaction based on domain knowledge, product requirement and organization structure.
             Leveraging functional programming to develop backend services reliably. 
             Using React, Vue to create the web apps; Scala, Ruby, Java, Golang, NodeJS for backend; CI/CD with Docker, Buildkite, Bamboo.
             Familiar with the widely used infrastructure like AWS, k8s, Splunk, NewRelic, PagerDuty, JIRA, Git.
@@ -179,7 +182,8 @@ disable404 = true
         details = """**I start my career** in Quyi which is a startup building a health management App, it can also connect with traditional medical institutions like hospitals. 
             I feel so excited to build a Web product, almost everything is different and new to me.
             As a quick learner, it talks me a few weeks to learn Java, understand the business.
-            \n\nDetail work includes: break the original monolithic architecture into microservices,
+            
+            \n\n Detail work includes: break the original monolithic architecture into microservices,
             coding the open platform with SpringMVC and RESTful interface for third-party application to access the services,
             develop service register and discovery with Zookeeper,
             design API Gateway with Netty,
@@ -192,8 +196,9 @@ disable404 = true
         dates = "Apr 2013 - Present"
         company = ""
         details = """**I got to know Bitcoin** in 2013, tried mining but network is blocking me to download any blocks.
-        Wrote Solidity in 2016 with Remix, the dev experience is not good TBH.
-        \n\nSince then, I started to exploring decentralized tech knowledge, it feels like home in this space, blockchain has its limitations, but more great things will coming!
+        Wrote Solidity in 2016 with Remix, the dev experience is not good in the old days.
+        
+        \n\n Since then, I started to exploring decentralized tech knowledge, it feels like home in this space, blockchain has its limitations, but more great things will coming!
         """
 
 
@@ -204,15 +209,15 @@ disable404 = true
         title = "Projects"
         intro = "**Following are side projects or open source libraries that I usually work on.** "
 
-		[[params.projects.list]]
-        title = "Substrate"
-        url = "https://github.com/paritytech/substrate"
-        tagline = "A framework to build blockchain which I have been actively contribute to."
-
         [[params.projects.list]]
         title = "Substrate Stencil"
         url = "https://github.com/kaichaosun/substrate-stencil"
         tagline = "A template for kick starting a Substrate based PoS chain."
+
+        [[params.projects.list]]
+        title = "Localtunnel in Rust"
+        url = "https://github.com/kaichaosun/rlt"
+        tagline = "Localtunnel implementation in Rust, expose local API to the public."
 
         [[params.projects.list]]
         title = "Play Substrate"
@@ -230,9 +235,9 @@ disable404 = true
         tagline = "Tech writings for blockchain and Substrate."
 
         [[params.projects.list]]
-        title = "Localtunnel in Rust"
-        url = "https://github.com/kaichaosun/rlt"
-        tagline = "Localtunnel implementation in Rust, expose local API to the public."
+        title = "Substrate"
+        url = "https://github.com/paritytech/substrate"
+        tagline = "A framework to build blockchain which I have been actively contribute to."
 
         [[params.projects.list]]
         title = "Start FP in Scala"
@@ -259,6 +264,10 @@ disable404 = true
         level = "90%"
 
         [[params.skills.list]]
+        skill = "Golang"
+        level = "80%"
+
+        [[params.skills.list]]
         skill = "Substrate"
         level = "90%"
 
@@ -283,16 +292,20 @@ disable404 = true
         level = "80%"
 
         [[params.skills.list]]
+        skill = "Tailwind CSS"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Flutter"
+        level = "60%"
+
+        [[params.skills.list]]
         skill = "AWS"
         level = "80%"
 
         [[params.skills.list]]
         skill = "Docker & Kubernetes"
         level = "80%"
-
-        [[params.skills.list]]
-        skill = "Golang"
-        level = "60%"
 
     # Footer section
 
