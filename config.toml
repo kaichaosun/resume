@@ -127,7 +127,7 @@ disable404 = true
         title = "Career Profile"
         summary = """\
             **As a Blockchain / DLT developer,** I have comprehensive technical skill set and expertise around **Substrate, Solidity, Libp2p, WASM, CRDT**. \
-            Now I'm focus on building **Local-first** software. 
+            Now I'm focus on building *Local First* software. 
             \n\nPreviously, I have been working as a Backend Developer of Web 2.0, masters the skill like web development, microservice design, functional programming, CI/CD, cloud computing, TDD, etc.
             \n\nI enjoy working in an agile team with open-minded people around. Remote work is the lifestyle which makes me comfortable. Coding in the night/quiet makes me feel great.
         """
@@ -139,11 +139,23 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Founder"
+        dates = "Jan 2023 - Present"
+        company = "Keyring Pte. Ltd."
+        details = """\
+            **To solve the pain point of crypto self-custodian,** I started the company named Keyring, it's building a secure and handy hardware wallet for crypto holders. More information on [keyring.so](https://keyring.so/).
+            
+            \n\n 
+            
+            \n\n 
+        """
+
+        [[params.jobs.list]]
         position = "Blockchain Developer"
-        dates = "Jul 2019 - Present"
+        dates = "Jul 2019 - Feb 2023"
         company = "Parity Technologies, Remote"
         details = """\
-            **Work with Substrate and Polkadot,** I designed a way for permissioned network to only connect with authorized nodes, includes a FRAME pallet named `node-authorization`. [See code here](https://github.com/paritytech/substrate/pull/6996).
+            **Work with Substrate and Polkadot,** I designed a way for permissioned network to only connect with authorized nodes, includes a FRAME pallet named node-authorization. [See code here](https://github.com/paritytech/substrate/pull/6996).
             Maintains a [Proof of Stake blockchain template](https://github.com/kaichaosun/substrate-stencil) which follows Polkadot mainnet launch process, includes BABE & GRANDPA consensus, staking, governance related pallets.
             Maintains [a few Substrate pallets](https://github.com/kaichaosun/play-substrate) for easily onboarding developers, it covers the knowledge includes macro syntax used in FRAME, storage data types, genesis config, off-chain worker, etc.
             
@@ -210,29 +222,24 @@ disable404 = true
         intro = "**Following are side projects or open source libraries that I usually work on.** "
 
         [[params.projects.list]]
-        title = "Substrate Stencil"
-        url = "https://github.com/kaichaosun/substrate-stencil"
-        tagline = "A template for kick starting a Substrate based PoS chain."
-
-        [[params.projects.list]]
         title = "Localtunnel in Rust"
         url = "https://github.com/kaichaosun/rlt"
         tagline = "Localtunnel implementation in Rust, expose local API to the public."
 
         [[params.projects.list]]
-        title = "Play Substrate"
-        url = "https://github.com/kaichaosun/play-substrate"
-        tagline = "Runtime modules for beginners to play with."
+        title = "Keyring Wallet"
+        url = "https://keyring.so/"
+        tagline = "Secure and handy hardware wallet for crypto holders, brings the financial card experience to web3."
+
+        [[params.projects.list]]
+        title = "Substrate Stencil"
+        url = "https://github.com/kaichaosun/substrate-stencil"
+        tagline = "A template for kick starting a Substrate based PoS chain."
 
         [[params.projects.list]]
         title = "Substrate Course"
         url = "https://github.com/SubstrateCourse/slides/blob/master/outline.md#substrate-blockchain-application-development"
         tagline = "Cohort based online course for developers includes primer and advanced."
-
-        [[params.projects.list]]
-        title = "Substrate Development Column"
-        url = "https://zhuanlan.zhihu.com/substrate"
-        tagline = "Tech writings for blockchain and Substrate."
 
         [[params.projects.list]]
         title = "Substrate"
@@ -244,11 +251,6 @@ disable404 = true
         url = "https://github.com/dashengSun/start-FP-in-scala"
         tagline = "A functional programming tutorial in Scala."
 
-        [[params.projects.list]]
-        title = "Rust Libp2p Examples"
-        url = "https://github.com/kaichaosun/rust-libp2p-examples"
-        tagline = "Demo the usage of rust-libp2p."
-
     # Skills section
     [params.skills]
         enable = true
@@ -256,16 +258,12 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "DLT"
+        skill = "Blockchain & DHT"
         level = "90%"
 
         [[params.skills.list]]
-        skill = "Rust"
+        skill = "Rust & Golang"
         level = "90%"
-
-        [[params.skills.list]]
-        skill = "Golang"
-        level = "80%"
 
         [[params.skills.list]]
         skill = "Substrate"
@@ -273,39 +271,27 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Solidity"
-        level = "70%"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "Holochain"
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Scala"
-        level = "90%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "80%"
-
-        [[params.skills.list]]
-        skill = "Javascript & ReactJS"
+        skill = "Javascript & React"
         level = "80%"
 
         [[params.skills.list]]
         skill = "Tailwind CSS"
-        level = "70%"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "Flutter"
         level = "60%"
 
         [[params.skills.list]]
-        skill = "AWS"
-        level = "80%"
-
-        [[params.skills.list]]
-        skill = "Docker & Kubernetes"
-        level = "80%"
+        skill = "DevOps"
+        level = "60%"
 
     # Footer section
 
