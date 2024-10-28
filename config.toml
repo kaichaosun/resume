@@ -143,11 +143,23 @@ disable404 = true
         dates = "Jan 2023 - Present"
         company = "Keyring Pte. Ltd."
         details = """\
-            **To solve the pain point of crypto self-custodian,** I started the company named Keyring, it's building a secure and handy hardware wallet for crypto holders. More information on [keyring.so](https://keyring.so/).
+            **To solve the pain point of crypto self-custodian,** I started the company named Keyring, it's building a secure and handy hardware wallet for Web3 citizens. More information on [keyring.so](https://keyring.so/).
             
-            \n\n 
+            \n\nIt supports EVM compatible blockchains includes Ethereum, Optimism and Base. We successfully got support from Optimism RetroPGF, check out [our proposal](https://vote.optimism.io/retropgf/3/application/0x6b9133680966c6d5b9a0496aa442e063ea73d965024cb2c89685f9f3c79148f0).
             
-            \n\n 
+            \n\nNow we are working on the mobile application, it will bring the a better experience to Web3, stay tuned!
+        """
+
+        [[params.jobs.list]]
+        position = "Contractor"
+        dates = "Nov 2023 - Present"
+        company = "Waku"
+        details = """\
+            **Waku is a decentralized communitcation network**, I have been working on the [Go Waku](https://github.com/waku-org/go-waku) implementation, also research on various topics includes [Protocol Reliability](https://github.com/waku-org/specs/pull/23), [Bandwidth Optimizations](https://forum.vac.dev/t/use-waku-in-a-bandwidth-efficient-way/353), etc.
+            
+            \n\n
+            
+            \n\n
         """
 
         [[params.jobs.list]]

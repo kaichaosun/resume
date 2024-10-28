@@ -8,8 +8,6 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # hugo -b https://whisperd.tech/resume/
 hugo
 
-mv public/* ./
-
 rm -rf public
 
 # Add changes to git.
