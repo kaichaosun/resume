@@ -138,17 +138,17 @@ disable404 = true
         icon = "fa-briefcase"
         title = "Experiences"
 
-        [[params.jobs.list]]
-        position = "Founder"
-        dates = "Jan 2023 - Present"
-        company = "Keyring Pte. Ltd."
-        details = """\
-            **To solve the pain point of crypto self-custodian,** I started the company named Keyring, it's building a secure and handy hardware wallet for Web3 citizens. More information on [keyring.so](https://keyring.so/).
+        # [[params.jobs.list]]
+        # position = "Founder"
+        # dates = "Jan 2023 - Present"
+        # company = "Keyring Pte. Ltd."
+        # details = """\
+        #     **To solve the pain point of crypto self-custodian,** I started the company named Keyring, it's building a secure and handy hardware wallet for Web3 citizens. More information on [keyring.so](https://keyring.so/).
             
-            \n\nIt supports EVM compatible blockchains includes Ethereum, Optimism and Base. We successfully got support from Optimism RetroPGF, check out [our proposal](https://vote.optimism.io/retropgf/3/application/0x6b9133680966c6d5b9a0496aa442e063ea73d965024cb2c89685f9f3c79148f0).
+        #     \n\nIt supports EVM compatible blockchains includes Ethereum, Optimism and Base. We successfully got support from Optimism RetroPGF, check out [our proposal](https://vote.optimism.io/retropgf/3/application/0x6b9133680966c6d5b9a0496aa442e063ea73d965024cb2c89685f9f3c79148f0).
             
-            \n\nNow we are working on the mobile application, it will bring the a better experience to Web3, stay tuned!
-        """
+        #     \n\nNow we are working on the mobile application, it will bring the a better experience to Web3, stay tuned!
+        # """
 
         [[params.jobs.list]]
         position = "Contractor"
